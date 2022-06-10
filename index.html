@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathery Website</title>
+    <link rel="stylesheet" href="assets\style.css">
+</head>
+
+
+<div id="current-weather">
+    <div id="city"></div>
+    <div id="temp"></div>
+    <div id="wind"></div>
+    <div id="humidity"></div>
+    <div id="uv-index"></div>
+</div>
+
+<div id="5-day">
+    <div id="dayone">
+        <div id="temp"></div>
+        <div id="wind"></div>
+        <div id="humidity"></div>
+    </div>
+</div>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <label for="zipcode">Enter zipcode</label>
+    <input id="zipcode" placeholder="Zip">
+    <button onclick="handleSubmit(document.getElementById('zipcode').value)">submit</button>
+
+
+
+
+    <script src="assets\index.js"></script>    
+</body>
+</html>
