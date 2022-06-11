@@ -1,0 +1,84 @@
+header {
+  padding: 2px 35px;
+  margin: 0%;
+  border-radius: 0%;
+  background-color: #1b40e4;
+  text; color: aliceblue;
+}
+
+#current-weather {
+  background-color: #f6f6f6;
+  padding: 20px;
+  width: 500px;
+  color: #000000;
+  position: relative;
+  float: right;
+  border-style: solid;
+  border-width: 3px;
+  
+}
+
+#fiveday {
+    border-style: dotted;
+    border-color: red;
+    float: right;
+    right: 0;
+    bottom: 0;
+
+}
+
+#dayone {
+    background-color: darkgray;
+    padding: 5px;
+    width: 150px;
+    height: 225px;
+    border-style: dotted;
+    border-color: red;
+    border-width: 2px;
+    border-radius: 10px;
+
+}
+#daytwo {
+    background-color: darkgray;
+    padding: 5px;
+    width: 150px;
+    height: 225px;
+    border-style: dotted;
+    border-color: red;
+    border-width: 2px;
+    border-radius: 10px;
+
+}
+#daythree {
+    background-color: darkgray;
+    padding: 5px;
+    width: 150px;
+    height: 225px;
+    border-style: dotted;
+    border-color: red;
+    border-width: 2px;
+    border-radius: 10px;
+
+}
+#dayfour {
+    background-color: darkgray;
+    padding: 5px;
+    width: 150px;
+    height: 225px;
+    border-style: dotted;
+    border-color: red;
+    border-width: 2px;
+    border-radius: 10px;
+
+}
+#dayfive {
+    background-color: darkgray;
+    padding: 5px;
+    width: 150px;
+    height: 225px;
+    border-style: dotted;
+    border-color: red;
+    border-width: 2px;
+    border-radius: 10px;
+
+}

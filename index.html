@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,35 +8,79 @@
     <title>Weathery Website</title>
     <link rel="stylesheet" href="assets\style.css">
 </head>
+<header>
+    <h1>Weather Dashboard</h1>
+</header>
+<label for="zipcode">Enter zipcode</label>
+<input id="zipcode" placeholder="Zip">
+<button onclick="handleSubmit(document.getElementById('zipcode').value)">Search</button>
 
+<section id="current-weather">
+    <div>
+        <div id="date">01/01/2022</div>
+        <div id="city">Austin</div>
+        <div id="temp">Temp: 74.01*F</div>
+        <div id="wind">Wind: 6.67 MPH</div>
+        <div id="humidity">Humidity: 46 %</div>
+        <div id="pressure">Pressure: 1010</div>
+    </div>
+</section>
 
-<div id="current-weather">
-    <div id="city"></div>
-    <div id="temp"></div>
-    <div id="wind"></div>
-    <div id="humidity"></div>
-    <div id="uv-index"></div>
-</div>
+<div id="fiveday">
+    <h2>5-Day Forecast:</h2>
 
-<div id="5-day">
     <div id="dayone">
+        <div id="date"></div>
+        <img src="" alt="dayone current weather">
         <div id="temp"></div>
         <div id="wind"></div>
         <div id="humidity"></div>
+        <div id="pressure"></div>
+    </div>
+
+    <div id="daytwo">
+        <div id="date"></div>
+        <img src="" alt="daytwo current weather">
+        <div id="temp"></div>
+        <div id="wind"></div>
+        <div id="humidity"></div>
+        <div id="pressure"></div>
+    </div>
+
+    <div id="daythree">
+        <div id="date"></div>
+        <img src="" alt="daythree current weather">
+        <div id="temp"></div>
+        <div id="wind"></div>
+        <div id="humidity"></div>
+        <div id="pressure"></div>
+    </div>
+
+    <div id="dayfour">
+        <div id="date"></div>
+        <img src="" alt="dayfour current weather">
+        <div id="temp"></div>
+        <div id="wind"></div>
+        <div id="humidity"></div>
+        <div id="pressure"></div>
+    </div>
+
+    <div id="dayfive">
+        <div id="date"></div>
+        <img src="" alt="dayfive current weather">
+        <div id="temp"></div>
+        <div id="wind"></div>
+        <div id="humidity"></div>
+        <div id="pressure"></div>
     </div>
 </div>
 
 <body>
-    <header>
-        <h1>Weather Dashboard</h1>
-    </header>
-    <label for="zipcode">Enter zipcode</label>
-    <input id="zipcode" placeholder="Zip">
-    <button onclick="handleSubmit(document.getElementById('zipcode').value)">submit</button>
 
 
 
 
-    <script src="assets\index.js"></script>    
+    <script src="assets\index.js"></script>
 </body>
+
 </html>
