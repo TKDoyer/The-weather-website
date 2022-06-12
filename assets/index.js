@@ -13,7 +13,7 @@ var weatherData;
     console.log(weatherData.name)
 
     var city = document.getElementById("city")
-    city.innerText = `${city}`.weatherData.name
+    city.innerText = weatherData.name
     
     var temp = document.getElementById("temp")
     temp.innerText = weatherData.main.temp
@@ -24,10 +24,13 @@ var weatherData;
     var humidity = document.getElementById("humidity")
     humidity.innerText = weatherData.main.humidity
     
-    var pressure = document.getElementById("pressure")
-    pressure.innerText = weatherData.main.pressure
+    var icon = document.getElementById("icon")
+   icon.innerText = weatherData.main.clouds
 
 }
+
+
+   
 
 
 

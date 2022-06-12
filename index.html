@@ -7,22 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weathery Website</title>
     <link rel="stylesheet" href="assets\style.css">
+
 </head>
 <header>
     <h1>Weather Dashboard</h1>
 </header>
-<label for="zipcode">Enter zipcode</label>
-<input id="zipcode" placeholder="Zip">
-<button onclick="handleSubmit(document.getElementById('zipcode').value)">Search</button>
-
+<div id="search-box">
+    <label for="zipcode">Enter zipcode:</label>
+    <input id="zipcode" placeholder="Zip">
+    <button onclick="handleSubmit(document.getElementById('zipcode').value)">Search</button>
+</div>
 <section id="current-weather">
     <div>
         <div id="date">01/01/2022</div>
-        <div id="city">Austin</div>
-        <div id="temp">Temp: 74.01*F</div>
-        <div id="wind">Wind: 6.67 MPH</div>
-        <div id="humidity">Humidity: 46 %</div>
-        <div id="pressure">Pressure: 1010</div>
+        <div id="icon"></div>
+        <div>City:<div id="city"></div>
+        </div>
+        <div>Temp:<div id="temp"></div>
+        </div>
+        <div>Wind:<div id="wind"></div>
+        </div>
+        <div>Humidity:<div id="humidity"></div>
+        </div>
+
     </div>
 </section>
 
@@ -30,48 +37,48 @@
     <h2>5-Day Forecast:</h2>
 
     <div id="dayone">
-        <div id="date"></div>
+        <div id="date">01/01/2022</div>
         <img src="" alt="dayone current weather">
-        <div id="temp"></div>
-        <div id="wind"></div>
-        <div id="humidity"></div>
-        <div id="pressure"></div>
+        <div id="temp">Temp:73*F</div>
+        <div id="wind">Wind:9 MPH</div>
+        <div id="humidity">Humidity: 66 %</div>
+
     </div>
 
     <div id="daytwo">
-        <div id="date"></div>
+        <div id="date">01/02/2022</div>
         <img src="" alt="daytwo current weather">
-        <div id="temp"></div>
-        <div id="wind"></div>
-        <div id="humidity"></div>
-        <div id="pressure"></div>
+        <div id="temp">Temp:74*F</div>
+        <div id="wind">Wind:10 MPH</div>
+        <div id="humidity">Humidity: 60 %</div>
+
     </div>
 
     <div id="daythree">
-        <div id="date"></div>
+        <div id="date">01/03/2022</div>
         <img src="" alt="daythree current weather">
-        <div id="temp"></div>
-        <div id="wind"></div>
-        <div id="humidity"></div>
-        <div id="pressure"></div>
+        <div id="temp">Temp:74*F</div>
+        <div id="wind">Wind:13 MPH</div>
+        <div id="humidity">Humidity: 64 %</div>
+
     </div>
 
     <div id="dayfour">
-        <div id="date"></div>
+        <div id="date">01/04/2022</div>
         <img src="" alt="dayfour current weather">
-        <div id="temp"></div>
-        <div id="wind"></div>
-        <div id="humidity"></div>
-        <div id="pressure"></div>
+        <div id="temp">Temp:75*F</div>
+        <div id="wind">Wind:15 MPH</div>
+        <div id="humidity">Humidity: 65 %</div>
+
     </div>
 
     <div id="dayfive">
-        <div id="date"></div>
+        <div id="date">01/05/2022</div>
         <img src="" alt="dayfive current weather">
-        <div id="temp"></div>
-        <div id="wind"></div>
-        <div id="humidity"></div>
-        <div id="pressure"></div>
+        <div id="temp">Temp:80*F</div>
+        <div id="wind">Wind:27 MPH</div>
+        <div id="humidity">Humidity: 56 %</div>
+
     </div>
 </div>
 
