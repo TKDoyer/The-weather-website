@@ -1,0 +1,71 @@
+
+//  function buildFiveDay(){
+//    var fivedayforcastBoxs = document.getElementsByClassName(`fiveDay`)
+   
+//    //variable that contains an icon for each day of the forecast.
+// console.log("pay attention to me: ", fivedayforcastBoxs);
+// var iconArray = fivedayforcast.daily.map(day => day.weather[0].icon);
+
+// //create a for loop that adds the src to the forecast box's img tag
+ 
+// for(var i = 0; i < fivedayforcastBoxs.length;i++){ 
+//    fivedayforcastBoxs[i].children[1].src = `http://openweathermap.org/img/wn/${fivedayforcast.daily.weather[i].icon}@2x.png`
+   
+//    fivedayforcastBoxs[i].temp.innerHTML =  fivedayforcast.daily.weather.temp; 
+
+
+
+//    // fivedayforcastBoxs[i].{target for info}.innerHTML =  fivedayforcast.daily.weather.temp; {actual info we're putting in}
+//    // fivedayforcastBoxs[i].{target for info}.innerHTML =  fivedayforcast.daily.weather.temp; {actual info we're putting in}
+//    // fivedayforcastBoxs[i].{target for info}.innerHTML =  fivedayforcast.daily.weather.temp; {actual info we're putting in}
+
+//  }
+
+// //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+    
+//  }
+
+//  function buildCurrentWeather(){
+//     console.log(weatherData)
+//     console.log(weatherData.name)
+
+//     var city = document.getElementById("city")
+//     city.innerText = weatherData.name
+    
+//     var temp = document.getElementById("temp")
+//     temp.innerText = weatherData.main.temp
+    
+//     var wind = document.getElementById("wind")
+//     wind.innerText = weatherData.wind.speed
+    
+//     var humidity = document.getElementById("humidity")
+//     humidity.innerText = weatherData.main.humidity
+    
+//     var icon = document.getElementById("icon")
+//    icon.innerText = weatherData.main.clouds
+
+// }
+
+
+
+
+
+// COPY #2
+
+
+// function buildFiveDay(){
+//     var fivedayforcastBoxs = document.getElementsByClassName(`fiveDay`)
+    
+//     //variable that contains an icon for each day of the forecast.
+//  console.log(fivedayforcastBoxs);
+//  var iconArray = fivedayforcast.daily.map(day => day.weather[0].icon);
+ 
+//  //create a for loop that adds the src to the forecast box's img tag
+// for(var i = 0; i < fivedayforcastBoxs.length;i++){ 
+//     fivedayforcastBoxs[i].children[1].src = `http://openweathermap.org/img/wn/${fivedayforcast.daily.weather[i].icon}@2x.png`
+
+// for(var i = 0; i < fivedayforcastBoxs.length;i++) {
+//     fivedayforcastBoxs[i].children[1].src = `http://openweathermap.org/img/wn/${iconArray[i]}@2x.png`
+      
+ 
+//  }
